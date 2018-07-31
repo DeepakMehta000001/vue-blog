@@ -1,5 +1,16 @@
 <template>
   <div>
-    <h1> Welcome To Golang Blog</h1>
+    <input type="text" v-model="message">
+    <p>{{ message }}</p>
   </div>
 </template>
+
+<script>
+    export default {
+        data(){
+            return {
+                message: ''
+            }
+        }
+    }
+</script>
