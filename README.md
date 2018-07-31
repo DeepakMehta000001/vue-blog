@@ -1,4 +1,3 @@
-# super_uktrav
 
 > A Vue.js project
 
